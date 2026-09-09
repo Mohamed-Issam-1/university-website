@@ -39,4 +39,5 @@ Academic Project — Web 1 Course
 
 ## Live Demo
 
-The live demo will be available through GitHub Pages.
+[View Live Demo](https://mohamed-issam-1.github.io/university-website/)
+
