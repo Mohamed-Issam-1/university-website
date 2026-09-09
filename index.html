@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جامعة الأقصى - غزة</title>
+    <!-- روابط CSS -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- شريط التنقل العلوي -->
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="assets/images/university-logo.png" alt="Al-Aqsa University Logo" class="logo">
+            <h1>جامعة الأقصى - غزة</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">الرئيسية</a></li>
+            <li><a href="#faculties">الكليات</a></li>
+            <li><a href="#news">الأخبار</a></li>
+            <li><a href="#events">الفعاليات</a></li>
+            <li><a href="#contact">اتصل بنا</a></li>
+            <li><a href="#about">عن الجامعة</a></li>
+        </ul>
+        <div class="hamburger">☰</div>
+    </nav>
+
+    <!-- القسم الرئيسي -->
+    <section class="hero" id="home" data-aos="fade-in">
+        <div class="hero-content">
+            <h2 id="typing-text"></h2>
+            <p>جامعة رائدة في التعليم العالي، ملتزمة بالتميز الأكاديمي والبحث العلمي وخدمة المجتمع.</p>
+            <button class="cta-button">تعرف على المزيد <i class="fas fa-arrow-down"></i></button>
+        </div>
+        <div class="hero-image">
+            <img src="assets/images/university-campus.jpg" alt="Al-Aqsa University Campus">
+        </div>
+    </section>
+
+    <!-- قسم عن الجامعة -->
+    <section class="about-section" id="about" data-aos="fade-up">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="assets/images/about-university.jpg" alt="About Al-Aqsa University">
+            </div>
+            <div class="about-content">
+                <h2 class="section-title">عن جامعة الأقصى</h2>
+                <p>تأسست جامعة الأقصى عام 1991م كمؤسسة للتعليم العالي في قطاع غزة، وتطورت لتصبح واحدة من أهم الجامعات
+                    الفلسطينية التي تقدم تعليمًا متميزًا في مختلف التخصصات العلمية والأدبية.</p>
+                <div class="stats">
+                    <div class="stat-item" data-aos="flip-left">
+                        <span class="stat-number">13</span>
+                        <span class="stat-label">كلية</span>
+                    </div>
+                    <div class="stat-item" data-aos="flip-left" data-aos-delay="150">
+                        <span class="stat-number">120+</span>
+                        <span class="stat-label">برنامج أكاديمي</span>
+                    </div>
+                    <div class="stat-item" data-aos="flip-left" data-aos-delay="300">
+                        <span class="stat-number">25,000+</span>
+                        <span class="stat-label">طالب</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الأخبار -->
+    <section class="news-section" id="news">
+        <h2 class="section-title" data-aos="fade-up">أحدث الأخبار والإعلانات</h2>
+        <div class="news-ticker" id="newsTicker" data-aos="fade-up">
+            <!-- سيتم ملؤه بواسطة JavaScript -->
+        </div>
+        <div class="news-cards">
+            <div class="news-card" data-aos="fade-up" data-aos-delay="100">
+                <img src="assets/images/news1.jpg" alt="News Image">
+                <h3>افتتاح معمل الحوسبة السحابية الجديد</h3>
+                <p>تم افتتاح معمل متطور للحوسبة السحابية في كلية الحاسوب وتكنولوجيا المعلومات بمشاركة عدد من الشركات
+                    الرائدة في مجال التكنولوجيا.</p>
+                <a href="#" class="read-more">اقرأ المزيد <i class="fas fa-book-open"></i></a>
+            </div>
+            <div class="news-card" data-aos="fade-up" data-aos-delay="200">
+                <img src="assets/images/news2.jpg" alt="News Image">
+                <h3>حفل تخريج الدفعة الجديدة</h3>
+                <p>تحت رعاية رئيس الجامعة، تم تخريج الدفعة 32 من طلبة الجامعة بحضور عدد من الشخصيات الاعتبارية وأهالي
+                    الطلبة.</p>
+                <a href="#" class="read-more">اقرأ المزيد <i class="fas fa-book-open"></i></a>
+            </div>
+            <div class="news-card" data-aos="fade-up" data-aos-delay="300">
+                <img src="assets/images/news3.jpg" alt="News Image">
+                <h3>فوز فريق الجامعة بمسابقة الروبوتات</h3>
+                <p>فاز فريق كلية الهندسة بمسابقة الروبوتات العربية التي أقيمت في القاهرة بمشاركة 25 فريقًا من مختلف
+                    الجامعات العربية.</p>
+                <a href="#" class="read-more">اقرأ المزيد <i class="fas fa-book-open"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الفعاليات -->
+    <section class="events-section" id="events">
+        <h2 class="section-title" data-aos="fade-up">الفعاليات القادمة</h2>
+        <div class="events-container">
+            <div class="event-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="event-date">
+                    <span class="day">15</span>
+                    <span class="month">أبريل</span>
+                </div>
+                <div class="event-details">
+                    <h3>يوم العلم السنوي</h3>
+                    <p>فعالية سنوية تعرض إنجازات الباحثين وطلبة الدراسات العليا في الجامعة.</p>
+                    <span class="event-time"><i class="far fa-clock"></i> 10:00 صباحًا - 2:00 ظهرًا</span>
+                </div>
+            </div>
+            <div class="event-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="event-date">
+                    <span class="day">22</span>
+                    <span class="month">أبريل</span>
+                </div>
+                <div class="event-details">
+                    <h3>معرض التوظيف السنوي</h3>
+                    <p>فرصة للطلبة للقاء ممثلي الشركات والمؤسسات المحلية والدولية.</p>
+                    <span class="event-time"><i class="far fa-clock"></i> 9:00 صباحًا - 4:00 عصرًا</span>
+                </div>
+            </div>
+            <div class="event-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="event-date">
+                    <span class="day">30</span>
+                    <span class="month">أبريل</span>
+                </div>
+                <div class="event-details">
+                    <h3>المؤتمر الدولي للتعليم الإلكتروني</h3>
+                    <p>مشاركة خبراء دوليين في مجال التعليم الإلكتروني وتقنيات التعليم.</p>
+                    <span class="event-time"><i class="far fa-clock"></i> 11:00 صباحًا - 6:00 مساءً</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الكليات -->
+    <section class="faculties-section" id="faculties">
+        <h2 class="section-title" data-aos="fade-up">كليات الجامعة</h2>
+        <div class="faculties-container">
+            <div class="faculty-card" data-aos="fade-up" data-aos-delay="100">
+                <i class="fas fa-laptop-code"></i>
+                <h3>كلية الحاسوب وتكنولوجيا المعلومات</h3>
+                <p>تقدم برامج في علوم الحاسوب، نظم المعلومات، وهندسة البرمجيات.</p>
+            </div>
+            <div class="faculty-card" data-aos="fade-up" data-aos-delay="150">
+                <i class="fas fa-flask"></i>
+                <h3>كلية العلوم</h3>
+                <p>تضم أقسام الرياضيات، الفيزياء، الكيمياء، والأحياء.</p>
+            </div>
+            <div class="faculty-card" data-aos="fade-up" data-aos-delay="200">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>كلية التربية</h3>
+                <p>تعد معلمين مؤهلين في مختلف التخصصات التعليمية.</p>
+            </div>
+            <div class="faculty-card" data-aos="fade-up" data-aos-delay="250">
+                <i class="fas fa-briefcase-medical"></i>
+                <h3>كلية الطب</h3>
+                <p>برامج في الطب البشري، التمريض، والصيدلة.</p>
+            </div>
+            <div class="faculty-card" data-aos="fade-up" data-aos-delay="300">
+                <i class="fas fa-balance-scale"></i>
+                <h3>كلية القانون</h3>
+                <p>تقدم برامج في القانون العام والخاص والقانون الدولي.</p>
+            </div>
+            <div class="faculty-card" data-aos="fade-up" data-aos-delay="350">
+                <i class="fas fa-landmark"></i>
+                <h3>كلية الآداب والعلوم الإنسانية</h3>
+                <p>تضم أقسام اللغة العربية، التاريخ، الجغرافيا، والفلسفة.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم اتصل بنا -->
+    <section class="contact-section" id="contact">
+        <h2 class="section-title" data-aos="fade-up">اتصل بنا</h2>
+        <div class="contact-container">
+            <div class="contact-info" data-aos="fade-right">
+                <h3>معلومات التواصل</h3>
+                <p><i class="fas fa-map-marker-alt"></i> غزة - تل الهوى، شارع الجامعة</p>
+                <p><i class="fas fa-phone"></i> 082645555</p>
+                <p><i class="fas fa-envelope"></i> info@alaqsa.edu.ps</p>
+                <div class="opening-hours">
+                    <h4>ساعات العمل:</h4>
+                    <p>الأحد - الخميس: 8:00 صباحًا - 3:00 عصرًا</p>
+                </div>
+                <div class="social-media">
+                    <h4>تابعنا على:</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form" data-aos="fade-left">
+                <h3>أرسل رسالة</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="الاسم الكامل" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="البريد الإلكتروني" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder="الموضوع" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="الرسالة" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">إرسال الرسالة <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="map-container" data-aos="fade-up">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3410.755410126098!2d34.45621531513662!3d31.50355898146153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14fd7f054e542767%3A0x7ff98dc913046392!2sAl-Aqsa%20University!5e0!3m2!1sen!2s!4v1620000000000!5m2!1sen!2s"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <!-- التذييل -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>اتصل بنا</h3>
+                <p><i class="fas fa-map-marker-alt"></i> غزة - تل الهوى</p>
+                <p><i class="fas fa-phone"></i> 082645555</p>
+                <p><i class="fas fa-envelope"></i> info@alaqsa.edu.ps</p>
+            </div>
+            <div class="footer-section">
+                <h3>روابط سريعة</h3>
+                <ul>
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#faculties">الكليات</a></li>
+                    <li><a href="#news">الأخبار</a></li>
+                    <li><a href="#events">الفعاليات</a></li>
+                    <li><a href="#contact">اتصل بنا</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>تابعنا على</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="newsletter">
+                    <h4>النشرة البريدية</h4>
+                    <form>
+                        <input type="email" placeholder="بريدك الإلكتروني">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2025 جامعة الأقصى - غزة. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <!-- زر العودة للأعلى -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- روابط JavaScript -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
